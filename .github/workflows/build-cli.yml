@@ -58,3 +58,4 @@ jobs:
           name: sideloader-cli-${{ matrix.triple }}
           path: |
             ${{github.workspace}}/bin/*
+
