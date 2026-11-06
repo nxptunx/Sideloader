@@ -1,8 +1,9 @@
 name: CLI builds
 
 on:
-	workflow_dispatch
-	push
+  workflow_dispatch:
+  push:
+
 
 env:
   BUILD_TYPE: Release
